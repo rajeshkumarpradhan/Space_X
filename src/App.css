@@ -1,0 +1,106 @@
+.App{
+  text-align: center;
+  background: #fbfbfb;
+}
+.App-logo{
+  height: 40vmin;
+  pointer-events: none;
+}
+.link-color{
+  color: white;
+}
+.form-label{
+  float: left;
+}
+.label-default{
+  color: black;
+  font-weight: bold;
+  font-size: 13px;
+  margin: 0px;
+}
+.label-text{
+  color:#0645AD;
+  font-size: 14px;
+  margin: 0px;
+}
+.card-body{
+  padding-bottom: 0px!important;
+}
+.card-title{
+  font-size: 14px!important;
+}
+.card-default{
+  max-height:350px;
+  width: 16rem;
+  float:left;
+  display:inline-block;
+  margin:5px;  
+  padding:10px
+}
+
+@media (min-width: 1200px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl {
+      max-width: 1440px!important;
+  }
+}
+@media  (max-width: 700px){
+  /* For mobile phones: */
+  [class*="col-md-2"] {
+    width: 35%;
+  }
+  .card-default{
+    max-height:none;
+    width: 28rem;
+  }
+}
+@media screen and (min-device-width: 700px) and (max-device-width: 1024px) { 
+   /* For mobile phones: */
+   [class*="col-md-2"] {
+    width: 35%;
+  }
+  .card-default{
+    max-height:none;
+    width: 18rem;
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+.loader-position{
+  position: fixed; /* or absolute */
+  top: 50%;
+  left: 50%;
+}
+.filter-button{
+  line-height: 0.5!important;
+  margin: 10px!important;
+  color: black!important;
+  border: 0!important;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
