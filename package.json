@@ -6,7 +6,6 @@
     "npm": "6.14.7",
     "node": "10.16.0"
   },
-
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.5.0",
@@ -23,7 +22,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "eslint ./src/**/*.js && react-scripts",
+    "start": "eslint ./src/**/*.js && react-scripts && node .src/index.js",
     "build": "eslint ./src/**/*.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
