@@ -22,7 +22,7 @@
     "redux-thunk": "^2.3.0"
   },
   "scripts": {
-    "start": "eslint ./src/**/*.js && react-scripts && node .src/index.js",
+    "start": "eslint ./src/**/*.js && react-scripts && node index.js",
     "build": "eslint ./src/**/*.js && react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
